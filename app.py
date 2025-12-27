@@ -82,8 +82,8 @@ def disable_getid(message):
 def ask_account_status(chat_id):
     text = (
         "👋 Chào anh/chị!\n"
-        "Em là Bot hỗ trợ nhận CODE ưu đãi U888.\n\n"
-        "👉 Anh/chị đã có tài khoản chơi U888 chưa ạ?\n\n"
+        "Em là Bot hỗ trợ nhận CODE ưu đãi 68VIP.\n\n"
+        "👉 Anh/chị đã có tài khoản chơi 68VIP chưa ạ?\n\n"
         "(Chỉ cần bấm nút bên dưới: ĐÃ CÓ hoặc CHƯA CÓ, em hỗ trợ ngay! 😊)"
     )
 
@@ -237,9 +237,9 @@ def handle_text(message):
 
         reply_text = (
             f"Em đã nhận được tên tài khoản: *{username_game}* ✅\n\n"
-            "Mình vào U888 lên vốn theo mốc để nhận khuyến mãi giúp em nhé.\n"
+            "Mình vào 68VIP lên vốn theo mốc để nhận khuyến mãi giúp em nhé.\n"
             "Lên thành công mình gửi *ảnh chuyển khoản* để em cộng điểm trực tiếp vào tài khoản cho mình ạ.\n\n"
-            "Có bất cứ thắc mắc gì nhắn tin trực tiếp cho CSKH U888:\n"
+            "Có bất cứ thắc mắc gì nhắn tin trực tiếp cho CSKH 68VIP:\n"
             "👉 [BÍCH NGỌC CSKH 68VIP](https://t.me/bichngocmaster)\n"
         )
 
