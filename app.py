@@ -13,8 +13,8 @@ from flask import Flask, request
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "0"))
 
-REG_LINK = "https://68viphaniol.68vipok16.com/register.html"
-WEBAPP_LINK = "https://68viphaniol.68vipok16.com/register.html"  # hiện chưa dùng, để sẵn
+REG_LINK = "https://epcka.68vip13.com/register.html"
+WEBAPP_LINK = "https://epcka.68vip13.com/register.html"  # hiện chưa dùng, để sẵn
 
 # Cấu hình giữ bot "thức"
 ENABLE_KEEP_ALIVE = os.getenv("ENABLE_KEEP_ALIVE", "false").lower() == "true"
@@ -96,7 +96,7 @@ def ask_account_status(chat_id):
     try:
         bot.send_photo(
             chat_id,
-            "AgACAgUAAxkBAANWaU64SYM1YfwPSgiQfHhCRzRlDHEAAsYMaxv5uHBW0SF4ZTZxhTYBAAMCAAN4AAM2BA",
+            "AgACAgUAAxkBAAMGaYhip8XqKZf1nZuti46IO7757KwAArgOaxvqoklUBfqvOlEhMY8BAAMCAAN4AAM6BA",
             caption=text,
             reply_markup=markup
         )
@@ -141,7 +141,7 @@ def callback_handler(call):
         try:
             bot.send_photo(
                 chat_id,
-                "AgACAgUAAxkBAANMaU63wtLIxDW0P9ri8UNaEEnjzOQAAsUMaxv5uHBWlZ81J0AhhT8BAAMCAAN4AAM2BA",
+                "AgACAgUAAxkBAAMIaYhirZgINr11ZOtWhM4CH8LewzMAArkOaxvqoklUKV1NvIHvW-0BAAMCAAN4AAM6BA",
                 caption=text,
                 reply_markup=markup
             )
@@ -165,7 +165,7 @@ def ask_for_username(chat_id):
     try:
         bot.send_photo(
             chat_id,
-            "AgACAgUAAxkBAAMhaU60yBFoummwWdUzFieZwPZLAAGEAALCDGsb-bhwVl12_LcINCaKAQADAgADeAADNgQ",
+            "AgACAgUAAxkBAAMKaYhisnvdPxAm7yBvz5moenme8Z8AAroOaxvqoklUI61tZfG44tkBAAMCAAN4AAM6BA",
             caption=text,
             parse_mode="Markdown"
         )
@@ -246,7 +246,7 @@ def handle_text(message):
         try:
             bot.send_photo(
                 chat_id,
-                "AgACAgUAAxkBAAPaaU68o5Dp8w6nN8rfI3G6eT4LNN8AAssMaxv5uHBWBK05sUrBsFMBAAMCAAN4AAM2BA",
+                "AgACAgUAAxkBAAMMaYhivLXTdsDrse-xT01rtr1G1d4AArsOaxvqoklUKaN8wAjr0lgBAAMCAAN4AAM6BA",
                 caption=reply_text,
                 parse_mode="Markdown"
             )
